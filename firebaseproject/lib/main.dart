@@ -1,4 +1,5 @@
-import 'package:firebaseproject/login/login.dart';
+import 'package:firebaseproject/setup/views/signUpView.dart';
+import 'package:firebaseproject/setup/views/loginView.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const CadastroPage(title: 'Flutter Demo Home Page'),
+      home: const LoginView(title: 'Flutter Demo Home Page'),
     );
   }
 }

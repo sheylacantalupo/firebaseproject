@@ -39,6 +39,15 @@ dependencies:
   firebase_auth: ^5.4.0
   math_expressions: ^2.6.0
   email_validator: ^3.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "lib/assets/images/theClinicLogo.jpg" # Caminho para sua nova imagem
+  # adaptive_icon_background: "#ffffff" # Cor de fundo para ícones adaptáveis no Android
+  # adaptive_icon_foreground: "lib/assets/icon/theClinicLogo.jpg" 
+
 
 dev_dependencies:
   flutter_test:
